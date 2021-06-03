@@ -11,8 +11,3 @@ const breedDetailsFromFile = function() {
 
 console.log(breedDetailsFromFile());
 
-fs.readFile(fileName, 'utf8', (error, data) => {
-  //   if (!error) {
-  //     console.log(`Downloaded and saved ${data.length} bytes to ${fileName}`);
-  //   }
-  // });
